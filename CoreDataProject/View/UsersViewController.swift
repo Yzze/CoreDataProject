@@ -115,7 +115,7 @@ extension UsersViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let viewController = DetailView()
+        let viewController = DetailViewController()
         tableView.deselectRow(at: indexPath, animated: true)
         viewController.person = presenter.models[indexPath.row]
         navigationController?.pushViewController(viewController, animated: true)

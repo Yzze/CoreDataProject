@@ -17,6 +17,7 @@
 		2C035DCB29DDB8FA006DC90F /* ModelCoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C035DC929DDB8FA006DC90F /* ModelCoreDataClass.swift */; };
 		2C035DCC29DDB8FA006DC90F /* ModelCoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C035DCA29DDB8FA006DC90F /* ModelCoreDataProperties.swift */; };
 		2C035DD029DDB9B5006DC90F /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C035DCF29DDB9B5006DC90F /* Presenter.swift */; };
+		2C035DD329DDC2E8006DC90F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C035DD229DDC2E8006DC90F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2C035DC929DDB8FA006DC90F /* ModelCoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCoreDataClass.swift; sourceTree = "<group>"; };
 		2C035DCA29DDB8FA006DC90F /* ModelCoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCoreDataProperties.swift; sourceTree = "<group>"; };
 		2C035DCF29DDB9B5006DC90F /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		2C035DD229DDC2E8006DC90F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				2C035DB329DDB6C1006DC90F /* UsersViewController.swift */,
+				2C035DD129DDC2D0006DC90F /* DetailView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,6 +120,14 @@
 				2C035DCF29DDB9B5006DC90F /* Presenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2C035DD129DDC2D0006DC90F /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				2C035DD229DDC2E8006DC90F /* DetailViewController.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 				2C035DCB29DDB8FA006DC90F /* ModelCoreDataClass.swift in Sources */,
 				2C035DCC29DDB8FA006DC90F /* ModelCoreDataProperties.swift in Sources */,
 				2C035DB229DDB6C1006DC90F /* SceneDelegate.swift in Sources */,
+				2C035DD329DDC2E8006DC90F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
