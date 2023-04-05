@@ -16,6 +16,7 @@
 		2C035DBF29DDB6C3006DC90F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C035DBD29DDB6C3006DC90F /* LaunchScreen.storyboard */; };
 		2C035DCB29DDB8FA006DC90F /* ModelCoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C035DC929DDB8FA006DC90F /* ModelCoreDataClass.swift */; };
 		2C035DCC29DDB8FA006DC90F /* ModelCoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C035DCA29DDB8FA006DC90F /* ModelCoreDataProperties.swift */; };
+		2C035DD029DDB9B5006DC90F /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C035DCF29DDB9B5006DC90F /* Presenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2C035DC029DDB6C3006DC90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C035DC929DDB8FA006DC90F /* ModelCoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCoreDataClass.swift; sourceTree = "<group>"; };
 		2C035DCA29DDB8FA006DC90F /* ModelCoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCoreDataProperties.swift; sourceTree = "<group>"; };
+		2C035DCF29DDB9B5006DC90F /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,6 @@
 		2C035DA329DDB6C1006DC90F = {
 			isa = PBXGroup;
 			children = (
-				2C035DCD29DDB908006DC90F /* Model */,
 				2C035DAE29DDB6C1006DC90F /* CoreDataProject */,
 				2C035DAD29DDB6C1006DC90F /* Products */,
 			);
@@ -64,7 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				2C035DC629DDB741006DC90F /* App */,
+				2C035DCD29DDB908006DC90F /* Model */,
 				2C035DC729DDB749006DC90F /* View */,
+				2C035DCE29DDB989006DC90F /* Presenter */,
 				2C035DC829DDB785006DC90F /* Resources */,
 			);
 			path = CoreDataProject;
@@ -106,6 +109,14 @@
 				2C035DCA29DDB8FA006DC90F /* ModelCoreDataProperties.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2C035DCE29DDB989006DC90F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2C035DCF29DDB9B5006DC90F /* Presenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C035DB429DDB6C1006DC90F /* UsersViewController.swift in Sources */,
+				2C035DD029DDB9B5006DC90F /* Presenter.swift in Sources */,
 				2C035DB029DDB6C1006DC90F /* AppDelegate.swift in Sources */,
 				2C035DBA29DDB6C1006DC90F /* CoreDataProject.xcdatamodeld in Sources */,
 				2C035DCB29DDB8FA006DC90F /* ModelCoreDataClass.swift in Sources */,
