@@ -9,7 +9,7 @@ import UIKit
 
 class UsersViewController: UIViewController {
     
-    let presenter = Presenter()
+    private let presenter = Presenter()
     
     private lazy var textField: UITextField = {
         let textField = UITextField()

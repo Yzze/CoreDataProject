@@ -9,10 +9,10 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    var isEditUser = false
-    let presenter = Presenter()
+    private var isEditUser = false
+    private let presenter = Presenter()
     
-    lazy var editButton: UIButton = {
+    private lazy var editButton: UIButton = {
         var editButton = UIButton()
         editButton.addTarget(self, action: #selector(editUser), for: .touchUpInside)
         editButton.setTitle("Edit", for: .normal)
