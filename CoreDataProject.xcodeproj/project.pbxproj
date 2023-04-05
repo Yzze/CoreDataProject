@@ -14,6 +14,8 @@
 		2C035DBA29DDB6C1006DC90F /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C035DB829DDB6C1006DC90F /* CoreDataProject.xcdatamodeld */; };
 		2C035DBC29DDB6C3006DC90F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C035DBB29DDB6C3006DC90F /* Assets.xcassets */; };
 		2C035DBF29DDB6C3006DC90F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C035DBD29DDB6C3006DC90F /* LaunchScreen.storyboard */; };
+		2C035DCB29DDB8FA006DC90F /* ModelCoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C035DC929DDB8FA006DC90F /* ModelCoreDataClass.swift */; };
+		2C035DCC29DDB8FA006DC90F /* ModelCoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C035DCA29DDB8FA006DC90F /* ModelCoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2C035DBB29DDB6C3006DC90F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C035DBE29DDB6C3006DC90F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C035DC029DDB6C3006DC90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C035DC929DDB8FA006DC90F /* ModelCoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCoreDataClass.swift; sourceTree = "<group>"; };
+		2C035DCA29DDB8FA006DC90F /* ModelCoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCoreDataProperties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		2C035DA329DDB6C1006DC90F = {
 			isa = PBXGroup;
 			children = (
+				2C035DCD29DDB908006DC90F /* Model */,
 				2C035DAE29DDB6C1006DC90F /* CoreDataProject */,
 				2C035DAD29DDB6C1006DC90F /* Products */,
 			);
@@ -92,6 +97,15 @@
 				2C035DB829DDB6C1006DC90F /* CoreDataProject.xcdatamodeld */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C035DCD29DDB908006DC90F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C035DC929DDB8FA006DC90F /* ModelCoreDataClass.swift */,
+				2C035DCA29DDB8FA006DC90F /* ModelCoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +182,8 @@
 				2C035DB429DDB6C1006DC90F /* UsersViewController.swift in Sources */,
 				2C035DB029DDB6C1006DC90F /* AppDelegate.swift in Sources */,
 				2C035DBA29DDB6C1006DC90F /* CoreDataProject.xcdatamodeld in Sources */,
+				2C035DCB29DDB8FA006DC90F /* ModelCoreDataClass.swift in Sources */,
+				2C035DCC29DDB8FA006DC90F /* ModelCoreDataProperties.swift in Sources */,
 				2C035DB229DDB6C1006DC90F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
